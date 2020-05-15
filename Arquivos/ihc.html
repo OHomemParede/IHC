@@ -1,0 +1,104 @@
+<html>
+	<head>
+		<script type="text/javascript" src="javaclick.js"></script>
+		<script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
+	</head>
+	<body>
+		
+
+		<a-scene cursor="rayOrigin: mouse">
+		  
+		  <a-assets >
+		    <!-- base -->
+		    <a-asset-item
+		                  id="base-obj"
+		                  src="https://raw.githubusercontent.com/OHomemParede/IHC/master/Modelos/Motor.obj">
+		      
+		    </a-asset-item>
+		    <a-asset-item 
+		                  id="base-mtl" 
+		                  src="https://raw.githubusercontent.com/OHomemParede/IHC/master/Modelos/Motor.mtl">
+		      
+		    </a-asset-item>
+		    <!-- Item A -->
+		    <a-asset-item 
+		                  id="a-obj" 
+		                  src="https://raw.githubusercontent.com/OHomemParede/IHC/master/Modelos/Parte_A.obj">
+		      
+		    </a-asset-item>
+		    
+		    <a-asset-item 
+		                  id="a-mtl"
+		                  src="https://raw.githubusercontent.com/OHomemParede/IHC/master/Modelos/Parte_A.mtl">
+		      
+		    </a-asset-item>
+		    <!-- Item B -->
+		    <a-asset-item 
+		                  id="b-obj" 
+		                  src="https://raw.githubusercontent.com/OHomemParede/IHC/master/Modelos/Parte_B.obj">
+		      
+		    </a-asset-item>
+		    
+		    <a-asset-item 
+		                  id="b-mtl" 
+		                  src="https://raw.githubusercontent.com/OHomemParede/IHC/master/Modelos/Parte_B.mtl">
+		      
+		    </a-asset-item>
+		    
+		    <!-- Helice -->
+		    <a-asset-item 
+		                  id="helice-obj" 
+		                  src="https://raw.githubusercontent.com/OHomemParede/IHC/master/Modelos/Helices.obj">
+		      
+		    </a-asset-item>
+		    
+		    <a-asset-item 
+		                  id="helice-mtl" 
+		                  src="https://raw.githubusercontent.com/OHomemParede/IHC/master/Modelos/Helices.mtl">
+		      
+		    </a-asset-item>
+		    
+		  </a-assets>
+		 
+		  <a-entity id="base" 
+		            material=""
+		            geometry=""
+		            obj-model="obj: #base-obj; mtl: #base-mtl"
+		            scale="2 2 2"
+		            position="0 0 -3"
+		            rotation="0 0 0"
+		  ></a-entity>
+		  
+		 <a-entity id="item_a" 
+		            obj-model="obj: #a-obj; mtl: #a-mtl"
+		            scale="2 2 2"
+		            position="3 -1 -3"
+		            rotation="0 0 0"
+		  ></a-entity>
+		  
+		  <a-entity id="item_b" 
+		            obj-model="obj: #b-obj; mtl: #b-mtl"
+		            scale="2 2 2"
+		            position="2 -1 -3"
+		            rotation="0 0 0"
+		  ></a-entity>
+		  
+		  <a-entity id="helice" 
+		            obj-model="obj: #helice-obj; mtl: #helice-mtl"
+		            scale="2 2 2"
+		            position="5 -1 -4"
+		            rotation="0 0 0"
+		  ></a-entity>
+		  
+		  
+		   <!-- Piso -->
+		  <a-plane position="0 0 -4"
+		           rotation="-90 0 0"
+		           width="20"
+		           height="20"
+		           color="gray">
+		  </a-plane>
+		  <a-sky color="white"></a-sky>
+		</a-scene>
+ 	</body>
+ </html>
