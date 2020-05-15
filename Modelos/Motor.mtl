@@ -1,10 +1,10 @@
-newmtl pasted__polySurface36SG
+newmtl Motor:pasted__polySurface36SG
 illum 4
 Kd 0.15 0.15 0.15
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 Ni 1.00
-newmtl pasted__polySurface37SG
+newmtl Motor:pasted__polySurface37SG
 illum 4
 Kd 0.41 0.36 0.27
 Ka 0.00 0.00 0.00
@@ -12,25 +12,25 @@ Tf 1.00 1.00 1.00
 Ni 1.00
 Ks 0.50 0.50 0.50
 Ns 18.00
-newmtl pasted__polySurface38SG
+newmtl Motor:pasted__polySurface38SG
 illum 4
 Kd 0.26 0.26 0.04
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 Ni 1.00
-newmtl pasted__polySurface39SG
+newmtl Motor:pasted__polySurface39SG
 illum 4
 Kd 0.81 0.88 0.90
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 Ni 1.00
-newmtl pasted__polySurface39SG1
+newmtl Motor:pasted__polySurface39SG2
 illum 4
 Kd 0.62 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 Ni 1.00
-newmtl pasted__polySurface69SG
+newmtl Motor:pasted__polySurface69SG
 illum 4
 Kd 0.79 0.79 0.79
 Ka 0.00 0.00 0.00
@@ -38,7 +38,7 @@ Tf 1.00 1.00 1.00
 Ni 1.00
 Ks 0.50 0.50 0.50
 Ns 18.00
-newmtl pasted__polySurface285SG
+newmtl Motor:pasted__polySurface285SG
 illum 4
 Kd 0.80 0.80 0.80
 Ka 0.00 0.00 0.00
@@ -46,7 +46,7 @@ Tf 1.00 1.00 1.00
 Ni 1.00
 Ks 0.50 0.50 0.50
 Ns 0.06
-newmtl pasted__polySurface285SG1
+newmtl Motor:pasted__polySurface285SG2
 illum 4
 Kd 0.50 0.50 0.50
 Ka 0.00 0.00 0.00
