@@ -1,4 +1,4 @@
-# IHC
+________________________________________________
 <h1>Web VR</h1>
 <p>Repositório sobre aulas da matéria de "Interação Humano Compuator" na Faculdade de Tecnologia Fatec Jessen Vidal, 2020</p>
 <h4>Alunos<h4>
