@@ -1,14 +1,15 @@
 <html>
-	<head>
-		<script type="text/javascript" src="javaclick.js"></script>
-		<script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
-	</head>
+	<head></head>
 	<body>
-		
-
+		<script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    
 		<a-scene cursor="rayOrigin: mouse">
-		  
-		  <a-assets >
+    
+  </a-entity>
+</a-entity>
+ 
+		  <a-assets cursor="rayOrigin: mouse">
+  
 		    <!-- base -->
 		    <a-asset-item
 		                  id="base-obj"
@@ -57,6 +58,7 @@
 		                  src="https://raw.githubusercontent.com/OHomemParede/IHC/master/Modelos/Helices.mtl">
 		      
 		    </a-asset-item>
+        
 		    
 		  </a-assets>
 		 
@@ -82,6 +84,7 @@
 		            position="2 -1 -3"
 		            rotation="0 0 0"
 		  ></a-entity>
+ 
 		  
 		  <a-entity id="helice" 
 		            obj-model="obj: #helice-obj; mtl: #helice-mtl"
