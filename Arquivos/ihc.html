@@ -7,7 +7,14 @@
     
   </a-entity>
 </a-entity>
- 
+      <!--Hangar-->
+          <a-gltf-model id ="hangar" src="https://raw.githubusercontent.com/KurtRodrigues/Project01/master/modelos%203D%20Porta%20avi%C3%A3o/Hangar.0.9.gltf" shadow="cast: false" position="-2 1 -2.5" rotation="0 0 0" scale="1 1 1"  visible="true"> </a-gltf-model>
+          <!--Vigas do Hangar-->
+          <a-gltf-model id ="viga" src="https://raw.githubusercontent.com/KurtRodrigues/Project01/master/modelos%203D%20Porta%20avi%C3%A3o/Estrutura-vigas.gltf" shadow="cast: false" position="-2 1 -2.5" rotation="0 0 0" scale="1 1 1"  visible="true"> </a-gltf-model>
+          <a-gltf-model id ="piso" src="https://raw.githubusercontent.com/KurtRodrigues/Project01/master/modelos%203D%20Porta%20avi%C3%A3o/hangar-PISO2.gltf" shadow="cast: false" position="-2 1 -2.5" rotation="0 0 0" scale="1 1 1"  visible="true"> </a-gltf-model>
+          <a-gltf-model id ="tablado1" src="https://raw.githubusercontent.com/KurtRodrigues/Project01/master/modelos%203D%20Porta%20avi%C3%A3o/tablado3-11.gltf" shadow="cast: false" position="0 1 -2.5" rotation="0 0 0" scale="1 0.5 0.5"  visible="true"> </a-gltf-model>
+          <a-gltf-model id ="tablado2" src="https://raw.githubusercontent.com/KurtRodrigues/Project01/master/modelos%203D%20Porta%20avi%C3%A3o/tablado3-11.gltf" shadow="cast: false" position="6 1 -2.5" rotation="0 0 0" scale="1 1 0.5"  visible="true"> </a-gltf-model>
+    <!------     Hangar fim     -------->
 		  <a-assets cursor="rayOrigin: mouse">
   
 		    <!-- base -->
@@ -67,21 +74,21 @@
 		            geometry=""
 		            obj-model="obj: #base-obj; mtl: #base-mtl"
 		            scale="2 2 2"
-		            position="0 0 -3"
+		            position="0 1 -3"
 		            rotation="0 0 0"
 		  ></a-entity>
 		  
 		 <a-entity id="item_a" 
 		            obj-model="obj: #a-obj; mtl: #a-mtl"
 		            scale="2 2 2"
-		            position="3 -1 -3"
+		            position="6.5 0.5 -3"
 		            rotation="0 0 0"
 		  ></a-entity>
 		  
 		  <a-entity id="item_b" 
 		            obj-model="obj: #b-obj; mtl: #b-mtl"
 		            scale="2 2 2"
-		            position="2 -1 -3"
+		            position="5.5 0.5 -3"
 		            rotation="0 0 0"
 		  ></a-entity>
  
@@ -89,11 +96,11 @@
 		  <a-entity id="helice" 
 		            obj-model="obj: #helice-obj; mtl: #helice-mtl"
 		            scale="2 2 2"
-		            position="5 -1 -4"
+		            position="5 0.5 -4"
 		            rotation="0 0 0"
 		  ></a-entity>
 		  
-		  
+		  <a-plane position="0 0 -1" rotation="-90 0 0" width="100" height="100" color="#2D572C" shadow></a-plane>
 		   <!-- Piso -->
 		  <a-plane position="0 0 -4"
 		           rotation="-90 0 0"
