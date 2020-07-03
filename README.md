@@ -7,4 +7,6 @@ ________________________________________________
     <li>Gustavo dos Santos Moura(https://github.com/GustavoMoura42)</li>
     <li>Raphael Campos de Oliveira Machado</li>
 </ul>
+    
+[link para o codepen](https://codepen.io/miojera42/pen/jObeErK?editors=1010)
 <p><b>Objetivo do projeto:</b> simular a construção de um modelo 3d associado a aeronautica, reter conceitos sobre Web VR, desenvolver conhecimento em JavaScript.</p>
