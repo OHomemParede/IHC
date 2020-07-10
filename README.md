@@ -1,10 +1,12 @@
 ________________________________________________
-<h1>Web VR</h1>
+<h1>Interação Humano Computador</h1>
+<h2>Web VR</h2>
 <p>Repositório sobre aulas da matéria de "Interação Humano Compuator" na Faculdade de Tecnologia Fatec Jessen Vidal, 2020</p>
+<p>Professor da Disciplina: Giuliano Bertoti</p>
 <h4>Alunos<h4>
 <ul>
-    <li>Daniel de Souza Lima(https://github.com/OHomemParede/IHC)</li>
-    <li>Gustavo dos Santos Moura(https://github.com/GustavoMoura42)</li>
+    <li>Daniel de Souza Lima(https://github.com/OHomemParede/IHC)<p>RA: 1460481911012</p></li>
+    <li>Gustavo dos Santos Moura(https://github.com/GustavoMoura42)<p>RA: 1460481911026</p></li>
     <li>Raphael Campos de Oliveira Machado</li>
 </ul>
     
