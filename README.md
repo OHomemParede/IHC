@@ -7,7 +7,7 @@ ________________________________________________
 <ul>
     <li>Daniel de Souza Lima(https://github.com/OHomemParede/IHC)<p>RA: 1460481911012</p></li>
     <li>Gustavo dos Santos Moura(https://github.com/GustavoMoura42)<p>RA: 1460481911026</p></li>
-    <li>Raphael Campos de Oliveira Machado</li>
+    <li>Raphael Campos de Oliveira Machado<p>RA:1460481821078</p></li>
 </ul>
 
 [link para o codepen](https://codepen.io/miojera42/pen/jObeErK?editors=1010)
